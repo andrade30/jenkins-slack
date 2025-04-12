@@ -2,7 +2,7 @@ services:
   # Serviço Jenkins para integração contínua
   jenkins:
     build: ./jenkins  # Usa Dockerfile localizado em ./jenkins
-    container_name: jenkins-server  # Nome do contêiner Jenkins
+    container_name: jenkins-server1  # Nome do contêiner Jenkins
     privileged: true  # Permite Docker-in-Docker
     user: root  # Executa como root
     networks:

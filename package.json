@@ -1,6 +1,6 @@
 {
   "name": "cypress-jenkins-slack",
-  "packageManager": "yarn@4.5.2",
+  "packageManager": "yarn@4.9.1",
   "dependencies": {
     "cypress": "^14.0.1"
   }
